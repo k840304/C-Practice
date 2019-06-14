@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A7C3708-AB59-4EA8-90B2-844C8FBB0A56}</ProjectGuid>
+    <ProjectGuid>{8EA32D3E-502D-4D2F-8841-95F9CBDDD827}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Uva</RootNamespace>
-    <AssemblyName>Uva</AssemblyName>
+    <RootNamespace>uva10055</RootNamespace>
+    <AssemblyName>uva10055</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="11417.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

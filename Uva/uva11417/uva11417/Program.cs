@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Uva
+namespace uva11417
 {
-    class uva11417
+    class Program
     {
         static void Main(string[] args)
         {
@@ -22,7 +26,7 @@ namespace Uva
                 Console.WriteLine(G);
             }
         }
-    
+
         public static int GCD(int a, int b)
         {
             int temp;
@@ -34,5 +38,5 @@ namespace Uva
             }
             return a;
         }
-   }
+    }
 }
